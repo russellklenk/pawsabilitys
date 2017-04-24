@@ -18,17 +18,15 @@ body {
     width: 940px;
     margin: 20px;
 }
+.center {
+	text-align: center;
+}
+.quote {
+	color: #c4c4c4;
+}
 header {
     height: 160px;
     display: inline;
-}
-body header figure {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding: 5px;
-    margin: 20px;
-    border: 1px solid #eeeeee;
 }
 h1 {
     color: #ff77bd;
@@ -84,13 +82,28 @@ article header h1 {
 article section p {
     margin: 20px;
 }
-figure {
+figure.logo {
+	float: left;
+	padding: 0px;
+	margin: 50px 20px 0px 20px;
+}
+figure.leftbar {
     float: left;
-    width: 290px;
-    height: 220px;
-    padding: 5px;
-    margin: 20px;
+    padding: 0px;
+    margin: 0px 20px 20px 20px;
     border: 1px solid #eeeeee;
+}
+figure.rightbar {
+	float: right;
+	padding: 0px;
+	margin: 20px 20px 20px 20px;
+	border: 1px solid #eeeeee;
+}
+figure.center {
+	float: none;
+	padding: 0px;
+	margin: 20px 20px 20px 20px;
+	border: 0px none;
 }
 figcaption {
     font-size: 90%;
